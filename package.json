@@ -1,0 +1,24 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "koa": "2.13.0",
+    "koa-bodyparser": "4.3.0",
+    "koa-router": "9.1.0",
+    "mongoose": "5.9.27",
+    "nodemon": "2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "7.6.0"
+  },
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon --watch src/ src/index.js"
+  }
+}
